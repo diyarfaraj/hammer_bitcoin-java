@@ -2,6 +2,8 @@ package com.company;
 
 import com.company.BitcoinMiner;
 
+import java.math.BigDecimal;
+
 /**
  * @author Learn Programming Academy Team
  * @see <a href="https://learnprogramming.academy">https://learnprogramming.academy</a>
@@ -13,8 +15,8 @@ public class Main {
         boolean playAgain = true;
 
         while (playAgain) {
-//            BitcoinMiner game = new BitcoinMiner();
-//            game.play();
+           BitcoinMiner game = new BitcoinMiner();
+          game.play();
             playAgain = BitcoinMiner.getYesOrNo("Would you like to play again?");
         }
 
